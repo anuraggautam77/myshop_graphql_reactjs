@@ -1,0 +1,98 @@
+//Global
+
+.feature_component {
+    padding: 50px 0;
+
+    div {
+        position: relative;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .feature_container {
+        .feature_item {
+            width: 100%;
+        }
+        .feature_image {
+            width: 100%;
+        }
+        .feature_image img {
+            max-width: 100%;
+        }
+        .feature_link {
+            width: 100%;
+            height: 50px;
+            background: #2f2f2f;
+            text-align: center;
+            -webkit-transition: all 200ms ease;
+            -moz-transition: all 200ms ease;
+            -ms-transition: all 200ms ease;
+            -o-transition: all 200ms ease;
+            transition: all 200ms ease;
+        }
+        .feature_link a {
+            display: block;
+            font-family: "Lucida", serif;
+            font-size: 18px;
+            color: #ffffff;
+            line-height: 50px;
+            -webkit-transition: all 200ms ease;
+            -moz-transition: all 200ms ease;
+            -ms-transition: all 200ms ease;
+            -o-transition: all 200ms ease;
+            transition: all 200ms ease;
+        }
+        .feature_link:hover {
+            background: #222222;
+        }
+        .feature_link:hover a {
+            color: #937c6f;
+        }
+        .feature_content {
+            position: absolute;
+            top: 43.6%;
+            z-index: 1;
+        }
+        .feature_content_1 {
+            right: 0;
+            text-align: right;
+            padding-right: 14px;
+        }
+        .feature_content_2 {
+            left: 0;
+            width: 100%;
+            text-align: center;
+            background: rgba(35, 35, 35, 0.63);
+            padding-bottom: 9px;
+            padding-top: 2px;
+        }
+        .feature_content_3 {
+            top: 30%;
+            left: 15px;
+            background: #232323;
+            padding-left: 10px;
+            text-align: right;
+            padding-right: 22px;
+            padding-top: 39px;
+            padding-bottom: 41px;
+        }
+        .feature_title {
+            font-family: "Lucida", serif;
+            font-size: 30px;
+            color: #ffffff;
+        }
+        .feature_subtitle {
+            font-size: 14px;
+            color: #ffffff;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-top: -3px;
+        }
+        .feature_content_3 .feature_subtitle {
+            text-transform: none;
+            font-weight: 400;
+            font-style: italic;
+        }
+    }
+}

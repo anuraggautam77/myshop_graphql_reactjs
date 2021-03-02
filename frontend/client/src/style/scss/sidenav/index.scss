@@ -1,0 +1,46 @@
+.side-nav-container {
+	li {
+		a {
+			padding: 10px 0;
+			display: block;
+			color: #000;
+			border-bottom: 1px solid #dc3545;
+			padding-left: 12px;
+		}
+		&.active {
+			a {
+				color: #b3260d;
+				font-weight: bold;
+				&:before {
+					content: "";
+					position: absolute;
+					left: 0;
+					top: 0;
+					bottom: 0;
+					width: 0;
+					background-color: #ff7315;
+					opacity: 0;
+					visibility: hidden;
+					-webkit-transition: 0.3s opacity ease, 0.3s visibility ease,
+						0.3s width ease;
+					-o-transition: 0.3s opacity ease, 0.3s visibility ease,
+						0.3s width ease;
+					transition: 0.3s opacity ease, 0.3s visibility ease, 0.3s width ease;
+				}
+			}
+		}
+	}
+
+	.side-menu-protected {
+		margin-top: 20px;
+	}
+
+	.side-menu,
+	.side-menu-protected {
+		width: 100%;
+	}
+
+	.user-avatar-name {
+		margin: 20px;
+	}
+}

@@ -1,0 +1,33 @@
+header {
+    //  position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    user-select: none;
+    background-color: #fff;
+    color: #8c8889;
+  
+    .header-content {
+        width: 92%;
+        max-width: 1300px;
+        margin-left: 20px;
+        padding: 22px 0;
+        height: 36px;
+        box-sizing: content-box;
+    }
+    
+    .logo {
+        display: block;
+        float: left;
+        font-size: 22px;
+        color: #000000;
+        line-height: 32px;
+        .iconfont {
+            font-size: 24px;
+            font-weight: 600;
+            vertical-align: top;
+        }
+    }
+ 
+}

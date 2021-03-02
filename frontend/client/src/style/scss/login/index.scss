@@ -1,0 +1,54 @@
+.login-section {
+	.content .bg {
+		background-size: cover;
+		background-position: center;
+	}
+	.content a {
+		color: #888;
+		text-decoration: underline;
+	}
+	.content .btn {
+		height: 54px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.content .forgot-pass {
+		position: relative;
+		top: 2px;
+		font-size: 14px;
+	}
+	.content .btn-pill {
+		border-radius: 30px;
+	}
+	.social-login a {
+		text-decoration: none;
+		position: relative;
+		text-align: center;
+		color: #fff;
+		margin-bottom: 10px;
+	}
+	.social-login a span {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+	}
+	.social-login a:hover {
+		color: #fff;
+	}
+	.social-login a.facebook {
+		background: #3b5998;
+	}
+	.social-login a.facebook:hover {
+		background: #344e86;
+	}
+
+	.social-login a.google {
+		background: #ea4335;
+	}
+	.social-login a.google:hover {
+		background: #e82e1e;
+	}
+}

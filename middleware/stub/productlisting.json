@@ -1,0 +1,108 @@
+[
+	{
+		"ProductID": 7631,
+		"SKU": "HEH-9133",
+		"Name": "On Cloud Nine Pillow",
+		"Price": 24.99,
+		"RatingAvg": 4.2,
+		"image": "promo_1.jpg",
+		"RatingCount": 8,
+		"DateCreated": "2018-03-03 17:41:13"
+	},
+	{
+		"ProductID": 7615,
+		"SKU": "HEH-2245",
+		"Name": "Simply Sweet Tshirt",
+		"image": "promo_9.jpg",
+		"Price": 42,
+		"RatingAvg": 4.2,
+		"RatingCount": 8,
+		"DateCreated": "2018-03-20 22:24:21"
+	},
+	{
+		"ProductID": 8100,
+		"SKU": "WKS-6016",
+		"Name": "Uptown Girl Tshirt",
+		"Price": 58,
+		"image": "promo_2.jpg",
+		"RatingAvg": 4.2,
+
+		"RatingCount": 8,
+		"DateCreated": "2018-03-20 22:24:21"
+	},
+	{
+		"ProductID": 6489,
+		"SKU": "DKO-PROF",
+		"Name": "Knock Your Socks Off Lace-Up Heels",
+
+		"Price": 38,
+		"image": "promo_4.jpg",
+		"RatingAvg": 4.2,
+
+		"RatingCount": 8,
+		"DateCreated": "2018-03-20 22:24:21"
+	},
+	{
+		"ProductID": 7732,
+		"SKU": "HEH-2172",
+		"Name": "My Cup of Tea Sweater",
+		"Price": 68,
+		"image": "promo_3.jpg",
+		"RatingAvg": 4.2,
+
+		"RatingCount": 8,
+		"DateCreated": "2018-03-20 22:24:21"
+	},
+
+	{
+		"ProductID": 10448,
+		"SKU": "SKE-15460",
+		"Name": "Across The Pond Boots",
+		"Price": 74.49,
+		"image": "promo_5.jpg",
+		"RatingAvg": 4.2,
+
+		"RatingCount": 8,
+		"DateCreated": "2018-06-25 18:09:07"
+	},
+	{
+		"ProductID": 8137,
+		"SKU": "PCH-8705",
+		"Name": "Once Upon A Time Lace Dress",
+		"Price": 50,
+		"image": "promo_6.jpg",
+		"RatingAvg": 4.2,
+		"RatingCount": 8,
+		"DateCreated": "2019-02-15 20:33:28"
+	},
+	{
+		"ProductID": 10018,
+		"SKU": "PGF-ESS",
+		"Name": "Lovey Dovey Maxi Dress",
+		"Price": 68,
+		"image": "promo_7.jpg",
+		"RatingAvg": 4.2,
+		"RatingCount": 8,
+		"DateCreated": "2019-02-20 21:38:02"
+	},
+	{
+		"ProductID": 5670,
+		"SKU": "HEH-2223",
+		"Name": "ShotIn the Dark Pillow",
+		"Price": 40,
+		"image": "promo_8.jpg",
+		"RatingAvg": 4.2,
+		"RatingCount": 8,
+		"DateCreated": "2018-03-01 20:28:28"
+	},
+	{
+		"ProductID": 9020,
+		"SKU": "PGF-RIK",
+		"Name": "Diamonds Are Forever Pillow",
+		"Price": 36,
+		"image": "promo_9.jpg",
+		"RatingAvg": 4.2,
+		"RatingCount": 8,
+		"DateCreated": "2018-03-16 22:17:50"
+	}
+]
