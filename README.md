@@ -1,11 +1,11 @@
 # JavaScript Stack 
 
 
-[![React](/client/public/img/techstack/react.png)](https://facebook.github.io/react/)
-[![ExpressJs](/client/public/img/techstack/express.png)](https://expressjs.com/)
-[![React Router](/client/public/img/techstack/react-router.png)](https://github.com/ReactTraining/react-router)
-[![Webpack](/client/public/img/techstack/webpack.png)](https://webpack.github.io/)
-[![Bootstrap](/client/public/img/techstack/bootstrap.png)](http://getbootstrap.com/)
+[![React](https://facebook.github.io/react/)
+[![ExpressJs](https://expressjs.com/)
+[![React Router](https://github.com/ReactTraining/react-router)
+[![Webpack](https://webpack.github.io/)
+[![Bootstrap](http://getbootstrap.com/)
  
 
 
