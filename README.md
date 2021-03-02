@@ -18,7 +18,7 @@ This is a boilerplate project using the following technologies:
 - [Sass](http://sass-lang.com/) for styles (using the SCSS syntax)
 - [Webpack](https://webpack.github.io/) for compilations
 - GraphQL
-- APOllO
+- Apollo-client/Server
  
  
 
