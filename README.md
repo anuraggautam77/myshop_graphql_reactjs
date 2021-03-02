@@ -1,11 +1,11 @@
 # JavaScript Stack 
 
 
-[![React](https://facebook.github.io/react/)
-[![ExpressJs](https://expressjs.com/)
-[![React Router](https://github.com/ReactTraining/react-router)
-[![Webpack](https://webpack.github.io/)
-[![Bootstrap](http://getbootstrap.com/)
+[React](https://facebook.github.io/react/)
+[ExpressJs](https://expressjs.com/)
+[React Router](https://github.com/ReactTraining/react-router)
+[Webpack](https://webpack.github.io/)
+[Bootstrap](http://getbootstrap.com/)
  
 
 
