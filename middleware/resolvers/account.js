@@ -2,8 +2,15 @@ const { AccountController } = require('../controllers');
 
 module.exports = () => ({
 	Mutation: {
-		signupUser: (root, params) => {
-			return { fname, email, token, image } = params;
+		signupUser: async (root, params) => {
+			const user = await AccountController.userLogin(params);
+			return {
+				fname: user.fullname,
+				email: user.email,
+				token: params.token,
+				image: params.image
+			}
+
 		},
 
 	}

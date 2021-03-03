@@ -4,8 +4,11 @@ const path = require('path');
 
 const app = express();
 const http = require('http');
+
 const { SubscriptionServer } = require('subscriptions-transport-ws');
 const { ApolloServer } = require('apollo-server-express');
+require('dotenv').config();
+require('./connection');
 
 const schema = require('./schema');
 const resolvers = require('./resolvers')();
