@@ -2,8 +2,11 @@ import React, { Component, Fragment } from 'react';
 import { getAllProducts } from "../../gql/product";
 import { useQuery } from "@apollo/client";
 import "../../style/scss/productlist/index.scss";
+import client from '../../apollo';
 
 const ProductList = () => {
+
+    console.log(client);
 
     function innerinlist() {
         const { loading, error, data } = useQuery(getAllProducts);

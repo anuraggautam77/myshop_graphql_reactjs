@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import "../../style/scss/featureList/index.scss"
 
+
 class FeatureList extends Component {
     constructor(props) {
         super(props);

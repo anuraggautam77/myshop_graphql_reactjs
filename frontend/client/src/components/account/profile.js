@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import '../../style/scss/order/index.scss'
 import { timezone } from '../../common/variable';
 
-console.log(timezone);
 const ProfileComponent = ({ }) => {
 	const [ className, setClassName ] = useState({ readonly: false, });
 	const [ profileData, setProfileData ] = useState({

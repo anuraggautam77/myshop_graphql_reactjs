@@ -9,6 +9,7 @@ import { useMutation } from "@apollo/client";
 
 import '../../style/scss/login/index.scss'
 
+import client from '../../apollo';
 
 const SignInComponent = ({ }) => {
 	const [ signupuser ] = useMutation(SIGNUP_USER);
@@ -71,7 +72,7 @@ const SignInComponent = ({ }) => {
 	const auth = getAccessToken();
 
 	if (!auth) {
-
+		console.log(client);
 		return (
 			<Fragment>
 				<div className="content login-section">
